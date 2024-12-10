@@ -97,12 +97,23 @@ function addMessageToHistory(sender, message) {
     conversationHistory.scrollTop = conversationHistory.scrollHeight; // Auto-scroll to the bottom
 }
 
-sendButton.addEventListener("click", () => {
+function handleSend() {
     const input = userInput.value.trim();
     if (!input) return;
 
     addMessageToHistory("You", input);
     const response = respond(input);
     addMessageToHistory("ELIZA", response);
-    userInput.value = "";
+    userInput.value = ""; // Clear input
+}
+
+// Click event for the "Send" button
+sendButton.addEventListener("click", handleSend);
+
+// Keypress event for the Enter key
+userInput.addEventListener("keypress", (event) => {
+    if (event.key === "Enter") {
+        event.preventDefault(); // Prevent default behavior (like form submission)
+        handleSend(); // Trigger the send functionality
+    }
 });
