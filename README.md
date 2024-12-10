@@ -1,4 +1,5 @@
-<h2>[Link to ELIZA page](https://cianmartyn.github.io/emergingtechnology/)</h2> 
+## [Link to ELIZA Chatbot](https://cianmartyn.github.io/emergingtechnology/)
+
 
 <h2>Task 1: Third-Order Letter Approximation Model</h2> 
 I selected five free English works in Plain Text UTF-8 format from Project Gutenberg. After carefully removing any preamble and postamble, I cleaned the text to keep only the following characters: (ASCII) letters (both uppercase and lowercase), full stops, and spaces. I then converted all letters to uppercase for consistency.
