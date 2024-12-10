@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/CianMartyn/emergingtechnology/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/CianMartyn/emergingtechnology/actions/workflows/pages/pages-build-deployment)
+[![Deploy static content to Pages](https://github.com/CianMartyn/emergingtechnology/actions/workflows/static.yml/badge.svg)](https://github.com/CianMartyn/emergingtechnology/actions/workflows/static.yml)
 ## [Link to ELIZA Chatbot](https://cianmartyn.github.io/emergingtechnology/)
 
 
